@@ -1,0 +1,30 @@
+{
+  "name": "legion",
+  "version": "1.0.0",
+  "description": "Discord bot for personal server",
+  "main": "server.js",
+  "dependencies": {
+    "discord.js": "^10.0.1",
+    "node-gyp": "^3.4.0",
+    "opusscript": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elexid/Legion.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Emma Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elexid/Legion/issues"
+  },
+  "homepage": "https://github.com/Elexid/Legion#readme"
+}

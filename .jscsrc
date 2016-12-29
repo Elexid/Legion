@@ -1,0 +1,5 @@
+{
+    "preset": "node-style-guide",
+    "maximumLineLength": 190,
+    "validateLineBreaks": false
+}
