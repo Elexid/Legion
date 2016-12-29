@@ -2,29 +2,51 @@
   "name": "legion",
   "version": "1.0.0",
   "description": "Discord bot for personal server",
+  "homepage": "https://github.com/Elexid/Legion#readme",
+  "author": "Emma Anderson",
+  "files": [
+    "lib"
+  ],
   "main": "server.js",
+  "keywords": [
+    "discord",
+    "bot"
+  ],
   "dependencies": {
+    "clapp": "^1.1.1",
     "discord.js": "^10.0.1",
     "node-gyp": "^3.4.0",
     "opusscript": "0.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elexid/Legion.git"
   },
-  "keywords": [
-    "discord",
-    "bot"
-  ],
-  "author": "Emma Anderson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Elexid/Legion/issues"
   },
-  "homepage": "https://github.com/Elexid/Legion#readme"
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  }
 }
