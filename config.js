@@ -9,6 +9,7 @@ module.exports = {
   //      whereas "Legion foo" will do nothing at all.
   prefix:  "#",
 
+  separator: "",
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
@@ -21,7 +22,7 @@ module.exports = {
   // MANAGE_MESSAGES - 	0x00002000
   // More info: https://discordapp.com/developers/docs/topics/permissions
   deleteAfterReply: {
-    enabled: true,
+    enabled: false,
     time: 2000, // In milliseconds
   }
 };
