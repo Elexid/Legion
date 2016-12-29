@@ -12,7 +12,7 @@ module.exports = {
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
-  token: "MjYzODM5NTE5MzU3NDAzMTM3.C0X3Zg.N3-eKNgRg9X0t4xfyJDvHjLUUj4",
+  token: "MjYzODQ1NDcwNDA3NzUzNzI5.C0X8wQ.pqdQebPT_vh14iNi296S5KE7Jds",
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
   // response, after the specified amount of time has passed.
@@ -22,6 +22,6 @@ module.exports = {
   // More info: https://discordapp.com/developers/docs/topics/permissions
   deleteAfterReply: {
     enabled: true,
-    time: 10000, // In milliseconds
+    time: 2000, // In milliseconds
   }
 };
