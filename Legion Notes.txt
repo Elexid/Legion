@@ -1,5 +1,3 @@
 Acknowleged
 Greetings, X-Commander
 Consensus
-npm install discord.js node-opus --save
-D:\Users\Emma\Desktop\Things\PROJECTS\Legion
