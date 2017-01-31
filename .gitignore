@@ -1,3 +1,4 @@
 node_modules
 coverage
 lib/factories/nameService.js
+npm-debug.log
