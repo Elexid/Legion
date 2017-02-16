@@ -1,4 +1,5 @@
 node_modules
 coverage
 lib/factories/nameService.js
+lib/factories/googleConfig.js
 npm-debug.log

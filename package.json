@@ -17,9 +17,11 @@
     "async": "^2.1.4",
     "clapp": "^1.1.1",
     "discord.js": "^10.0.1",
+    "electrolyte": "^0.3.0",
     "node-gyp": "^3.4.0",
     "node-uuid": "^1.4.7",
-    "opusscript": "0.0.1"
+    "opusscript": "0.0.1",
+    "superagent": "^3.4.3"
   },
   "devDependencies": {
     "eslint": "^3.1.1",
