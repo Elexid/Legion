@@ -1,5 +1,5 @@
 node_modules
 coverage
-lib/factories/nameService.js
+lib/services/nameService.js
 config/*
 npm-debug.log
